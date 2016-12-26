@@ -1,8 +1,7 @@
 {
     "Name": "2048",
-    "Extensions": [
-        {
-            "ExtensionId": "daocloud.2048.navigatorNode",
+    "Extensions": {
+        "daocloud.2048.navigatorNode": {
             "ExtendedPoint": "dce.navigator.nodeSpecs",
             "Object": {
                 "Title": "2048",
@@ -11,8 +10,7 @@
                 "NavigationTargetUID": "daocloud.2048.globalView"
             }
         },
-        {
-            "ExtensionId": "daocloud.2048.globalView",
+        "daocloud.2048.globalView": {
             "ExtendedPoint": "dce.global.views",
             "Object": {
                 "Name": "2048",
@@ -26,5 +24,5 @@
                 }
             }
         }
-    ]
+    }
 }

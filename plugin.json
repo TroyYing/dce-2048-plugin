@@ -1,5 +1,5 @@
 {
-    "Name": "DaoCloud 2048",
+    "Name": "2048",
     "Extensions": [
         {
             "ExtensionId": "daocloud.2048.navigatorNode",

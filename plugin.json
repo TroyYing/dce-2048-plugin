@@ -23,6 +23,13 @@
                     }
                 }
             }
+        },
+        "daocloud.2048.settingButton": {
+            "ExtendedPoint": "dce.plugin.settings",
+            "Object": {
+                "PluginName": "2048",
+                "NavigationTargetUID": "daocloud.2048.globalView"
+            }
         }
     }
 }

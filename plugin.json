@@ -30,6 +30,20 @@
                 "PluginName": "2048",
                 "NavigationTargetUID": "daocloud.2048.globalView"
             }
+        },
+        "daocloud.2048.Application.manage": {
+            "ExtendedPoint": "dce.core.Application.manageViews",
+            "Object": {
+                "Name": "2048",
+                "ComponentClass": {
+                    "ClassName": "dce.client.htmlbridge.HtmlView",
+                    "Object": {
+                        "Root": {
+                            "URL": "/"
+                        }
+                    }
+                }
+            }
         }
     }
 }
